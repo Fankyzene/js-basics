@@ -25,7 +25,7 @@ const arr = [
     '456'
 ]
 
-
+arr[18] = 987
 
 //    rootElement.innerHTML += "Ciao"
 
@@ -39,7 +39,7 @@ const arr = [
 function loadEvent() {
     let root = document.getElementById('root')
     root.insertAdjacentHTML('beforeend',
-        `<h1> ${arr} </h1>`
+        `<h1>${arr.length}</h1 > `
     )
 }
 
